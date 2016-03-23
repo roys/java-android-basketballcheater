@@ -40,15 +40,15 @@ public class BasketballCheaterTest extends ActivityInstrumentationTestCase2<Main
     }
 
     @Test
-    public void testTypeOperandsAndPerformAddOperation() throws UiObjectNotFoundException, TimeoutException {
+    public void testGettingANewHighScoreInBasketballGame() throws UiObjectNotFoundException, TimeoutException {
         UiDevice uiDevice = UiDevice.getInstance(getInstrumentation());
         UiObject highScoreTextViewUiObject = uiDevice.findObject(new UiSelector().resourceId("com.facebook.orca:id/high_score_text"));
-        UiObject currentSessionHighScoreTextViewUiObject = uiDevice.findObject(new UiSelector().resourceId("com.facebook.orca:id/best_score_text"));
+//        UiObject currentSessionHighScoreTextViewUiObject = uiDevice.findObject(new UiSelector().resourceId("com.facebook.orca:id/best_score_text"));
         UiObject currentScoreUiObject = uiDevice.findObject(new UiSelector().resourceId("com.facebook.orca:id/score"));
         UiObject ballUiObject = uiDevice.findObject(new UiSelector().resourceId("com.facebook.orca:id/ball"));
         UiObject basketUiObject = uiDevice.findObject(new UiSelector().resourceId("com.facebook.orca:id/rim"));
 
-        if (!highScoreTextViewUiObject.exists() || !currentSessionHighScoreTextViewUiObject.exists() || !currentScoreUiObject.exists() || !ballUiObject.exists() || !basketUiObject.exists()) {
+        if (!highScoreTextViewUiObject.exists() || /*!currentSessionHighScoreTextViewUiObject.exists() || */!currentScoreUiObject.exists() || !ballUiObject.exists() || !basketUiObject.exists()) {
             Log.e(TAG, "Unable to find one or more game objects. Either the game has changed or there is no game running. Will try to proceed with test.");
             toast("Unable to find one or more game objects. Are you running a Messenger basketball game? If so, maybe the game has changed in some way? Script will probably not be able to run properly.", Toast.LENGTH_LONG);
         }
