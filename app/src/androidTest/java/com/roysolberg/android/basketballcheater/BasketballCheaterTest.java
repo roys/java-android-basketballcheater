@@ -25,7 +25,7 @@ public class BasketballCheaterTest extends ActivityInstrumentationTestCase2<Main
 
     private final static String TAG = BasketballCheaterTest.class.getSimpleName();
 
-    final int NUMBER_OF_THROWS = 450;
+    final int NUMBER_OF_THROWS = 1337;
     protected Context applicationContext;
 
     public BasketballCheaterTest() {
