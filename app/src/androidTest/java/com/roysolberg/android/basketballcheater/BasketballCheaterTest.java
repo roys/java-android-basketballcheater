@@ -84,7 +84,7 @@ public class BasketballCheaterTest extends ActivityInstrumentationTestCase2<Main
 //                Thread.sleep(400); // Worked well - score of 33
 //                Thread.sleep(300); // Not far past 10
 //                Thread.sleep(350); // 20ish
-                Thread.sleep(370); // 32
+                Thread.sleep(370); // 32-58
 //                Thread.sleep(380); // 30-31
 //                Thread.sleep(390); // 29
             } catch (InterruptedException e) {
