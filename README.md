@@ -1,6 +1,6 @@
 ### Basketball cheater for Messenger
 **tl;dr:** This is a script that you can run with *gradle* or *Android Studio* to improve your score in Facebook
-Messenger's basketball game. If you aren't a developer you probably don't want to check out this further. If you are a
+Messenger's basketball game. If you aren't a developer you probably don't want to check this out any further. If you are a
 developer you can just checkout and try it yourself.
 
 #### Proof of concept video
@@ -18,5 +18,5 @@ the ball towards the basket.
 ![UI Automater Viewer](https://github.com/roys/java-android-basketballcheater/raw/master/misc/uianimatorview.png "UI Automater Viewer")
 
 #### FAQ
-**Q:** What's the high score with this script?  
+**Q:** What's the high score with this script?
 **A:** I've only tried it for a few runs, but I got a decent **58**. I'm sure the sky's the limit with some tweaking of the script.
