@@ -18,5 +18,5 @@ the ball towards the basket.
 ![UI Automater Viewer](https://github.com/roys/java-android-basketballcheater/raw/master/misc/uianimatorview.png "UI Automater Viewer")
 
 #### FAQ
-**Q:** What's the high score with this script? I've only tried it for a few runs, but I got a decent 58. I'm sure the
-sky's the limit with some tweaking.
+**Q:** What's the high score with this script?
+**A:** I've only tried it for a few runs, but I got a decent 58. I'm sure the sky's the limit with some tweaking.
