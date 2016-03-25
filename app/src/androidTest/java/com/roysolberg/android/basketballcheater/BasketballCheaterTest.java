@@ -50,7 +50,7 @@ public class BasketballCheaterTest extends ActivityInstrumentationTestCase2<Main
 
         if (!highScoreTextViewUiObject.exists() || /*!currentSessionHighScoreTextViewUiObject.exists() || */!currentScoreUiObject.exists() || !ballUiObject.exists() || !basketUiObject.exists()) {
             Log.e(TAG, "Unable to find one or more game objects. Either the game has changed or there is no game running. Will try to proceed with test.");
-            toast("Unable to find one or more game objects. Are you running a Messenger basketball game? If so, maybe the game has changed in some way? Script will probably not be able to run properly.", Toast.LENGTH_LONG);
+            toast("Are you running a Messenger basketball game? If so, maybe the game has changed in some way? Script will probably not be able to run properly.", Toast.LENGTH_LONG);
         }
 
         int basketCenterX = -1;
